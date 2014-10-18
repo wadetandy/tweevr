@@ -1,4 +1,5 @@
 ActiveAdmin.register SeriesSeason do
+  permit_params :season_number
 
 
   # See permitted parameters documentation:
