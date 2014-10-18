@@ -1,4 +1,5 @@
 ActiveAdmin.register Series do
+  permit_params :title
 
 
   # See permitted parameters documentation:
