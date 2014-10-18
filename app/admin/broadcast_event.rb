@@ -1,4 +1,5 @@
 ActiveAdmin.register BroadcastEvent do
+  permit_params :starts_at, :ends_at, :title, :description, :tags
 
 
   # See permitted parameters documentation:
