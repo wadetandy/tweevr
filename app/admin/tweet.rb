@@ -1,4 +1,5 @@
 ActiveAdmin.register Tweet do
+  permit_params :user, :urls, :hashtags, :user_mentions, :text, :status_id, :in_reply_to_status_id, :in_reply_to_user_id, :uuid, :retweet_count, :in_reply_to_screen_name, :source
 
 
   # See permitted parameters documentation:
